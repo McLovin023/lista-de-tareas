@@ -1,8 +1,27 @@
 body{
     display: flex;
+    flex-direction: column;
+    align-items: center;  
 }
-    .completada {
-      text-decoration: line-through;
-      color: gray;
-    }
+
+.entrada{
+    flex-direction: row;
+}
+
+#nueva-tarea{
+    border-radius: 25px ;
+    height: 50px;
+}
+#agregar{
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
   
