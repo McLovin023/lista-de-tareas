@@ -9,13 +9,17 @@ boton.addEventListener("click", function () {
 
   const tarea = document.createElement("li");
   tarea.textContent = texto;
+  tarea.classList.add("text-button");
 
   tarea.addEventListener("click", function () {
     tarea.classList.toggle("completada");
   });
 
   const borrar = document.createElement("button");
-  borrar.textContent = "Borrar";
+  borrar.textContent = "Borrar"; 
+  // borrar.style.backgroundColor = "blue";
+  borrar.classList.add("style-button")
+          
 
   borrar.addEventListener("click", function (evento) {
     evento.stopPropagation();

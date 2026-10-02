@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
 .rubik-spray-paint-regular {
   font-family: "Rubik Spray Paint", system-ui;
   font-weight: 400;
@@ -11,6 +13,8 @@
 }
 
 body{
+    font-family: "Nunito", sans-serif;
+    color: black;
     background-image: url(images/Gemini_Generated_Image_vrocj2vrocj2vroc.jpg);
     background-repeat: repeat;
     background-size: cover;
@@ -40,9 +44,19 @@ p{
     font-size: 35px;
 }
 
-.entrada{
-    flex-direction: row;
-   
+input{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-style: italic;
+    align-content: center;
+    padding-left: 25px;
+}
+
+input::placeholder {
+  color: red;
+  font-size: 25px;
+  font-style: italic;
+  opacity: 0.5;
 }
 
 #nueva-tarea{
@@ -51,15 +65,33 @@ p{
     width: 300px;
 }
 #agregar{
+    font-family: "Luckiest Guy", cursive;
     background-color: blue;
-    color: white;
+    color: rgb(253, 253, 253);
     height: 75px;
     width: 100px;
     border-radius: 25px;
 }
 
+
+.style-button{
+    font-family: "Luckiest Guy", cursive;
+    color: rgb(255, 254, 254);
+    background-color: blue;
+    border-radius: 25px;
+    padding: 25px;
+    margin-left: 10px;
+}
+
+.text-button{
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+}
+
 .completada {
     text-decoration: line-through;
-    color: gray;
+    text-decoration-thickness: 3px;
+    text-decoration-color: black;
+    color: black;
 }
   
